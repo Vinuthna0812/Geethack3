@@ -9,6 +9,7 @@ import DoctorSignup from './pages/DoctorSignup';
 import DoctorLogin from './pages/DoctorLogin';
 import PatientLogin from './pages/PatientLogin';
 import AddPatient from './pages/AddPatient';
+import PatientDetail from './pages/PatientDetail';
 
 // Landing page component
 const LandingPage = () => {
@@ -214,6 +215,7 @@ function App() {
               )
             }
           />
+          
           <Route
             path="/patient/symptoms"
             element={

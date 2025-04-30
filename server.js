@@ -17,7 +17,7 @@ const doctorSchema = new mongoose.Schema({
 const Doctor = mongoose.model('Doctor', doctorSchema);
 const SymptomSchema = new mongoose.Schema({
   name: { type: String, required: true },
-  severity: { type: String, required: true }, // example field
+  //severity: { type: String, required: true }, // example field
   note: { type: String, required: false }      // optional additional note
 });
 
